@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
+import { NgStyle } from '@angular/common';
+
 import { RepositoryService } from '../repository.service';
 import { Repo } from '../repo';
 

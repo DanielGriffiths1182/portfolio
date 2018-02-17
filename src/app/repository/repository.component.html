@@ -1,6 +1,6 @@
 <div class="blog-container" *ngFor="let repo of repos">
   <div class="blog-header">
-    <div class="blog-cover">
+    <div class="blog-cover" [ngStyle]="{'background':  repo.url}">
     </div>
   </div>
   <div class="blog-body">

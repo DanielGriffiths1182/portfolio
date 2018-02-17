@@ -170,14 +170,16 @@ export class InMemoryDataService implements InMemoryDbService {
         skills: ['AngularJS', 'Javascript', 'HTML', 'CSS', 'SCSS', 'jQuery', 'Typescript'],
         link: 'https://github.com/DanielGriffiths1182/robust-angularJS-portfolio-site-application',
         description: 'A robust (Javascript, Typescript, HTML, SCSS) AngularJS, building towards new portfolio',
-        mainSkill: 'Typescript'
+        mainSkill: 'Typescript',
+        url: 'url("../../assets/repos/l_sublime_text_angular.png")'
       },{
         id: 2,
         name: 'Ruby Codewars Archive',
         skills: ['Ruby'],
         link: 'https://github.com/DanielGriffiths1182/ruby-codewars-archive',
         description: '87 Ruby exercises and tests',
-        mainSkill: 'Ruby'
+        mainSkill: 'Ruby',
+        url: 'url("../../assets/repos/coinbase-with-ruby-4.png")'
       },
       {
         id: 3,
@@ -185,14 +187,16 @@ export class InMemoryDataService implements InMemoryDbService {
         skills: ['PHP'],
         link: 'https://github.com/DanielGriffiths1182/php_codewars_archive',
         description: '25 PHP exercises and tests',
-        mainSkill: 'PHP'
+        mainSkill: 'PHP',
+        url: 'url("../../assets/repos/php-example-6.png")'
       },{
         id: 4,
         name: 'Javascript Codewars Archive',
         skills: ['Javascript'],
         link: 'https://github.com/DanielGriffiths1182/javascript-codewars-archive',
         description: '40 Javascript exercises and tests',
-        mainSkill: 'Javascript'
+        mainSkill: 'Javascript',
+        url: 'url("../../assets/repos/js.png")'
       },
       {
         id: 5,
@@ -200,14 +204,16 @@ export class InMemoryDataService implements InMemoryDbService {
         skills: ['Java', 'Spring Boot', 'HTML', 'CSS'],
         link: 'https://github.com/DanielGriffiths1182/java-movie-application',
         description: 'With RESTful and full CRUD, a mini-application using Javas Spring Boot MVC',
-        mainSkill: 'Java'
+        mainSkill: 'Java',
+        url: 'url("../../assets/repos/1_oAshb_Imd_kGL8ma5kwexw.png")'
       },{
         id: 6,
         name: 'Code Karma API and Web Platform',
         skills: ['Ruby', 'Rails', 'SQL', 'Javascript', 'HTML', 'SCSS', 'AngularJS'],
         link: 'https://github.com/DanielGriffiths1182/code_karma_api',
         description: 'VISIT: https://samanthasheadavis.github.io/codeKarma/#/ | Robust and scaled minimum viable product',
-        mainSkill: 'Rails'
+        mainSkill: 'Rails',
+        url: 'url("../../assets/repos/rails_default_application.png")'
       }
     ];
     return {skills, repos};
