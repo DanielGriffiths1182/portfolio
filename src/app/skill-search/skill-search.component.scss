@@ -1,0 +1,112 @@
+/* HeroSearch private styles */
+
+.dropdoqn {
+  position: relative;
+}
+
+.search-result li {
+  border-bottom: 1px solid black;
+  border-left: 1px solid #860202;
+  border-right: 1px solid #860202;
+  width: 350px;
+  height: 36px;
+  padding: 5px;
+  background-color: white;
+  list-style-type: none;
+  line-height: 34px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 100;
+  opacity: .8;
+}
+
+.search-result li:hover {
+  box-shadow: #8b442d -2px 2px, #8b442d -2px 2px, #8b442d -3px 3px, #8b442d -3px 3px, #8b442d -3px 3px, #8b442d -3px 3px;
+  transform: translate3d(3px, -3px, 0);
+  transition-delay: 0s;
+  transition-duration: 0.7s;
+  transition-property: all;
+  outline: none;
+  opacity: .8;
+}
+
+.search-result li a {
+  color: #888;
+  display: block;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 100;
+}
+
+ul.search-result {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  background: white;
+}
+
+#search-box {
+  width: 200px;
+  height: 20px;
+  border-bottom: solid white 1px;
+  border-top: solid white 1px;
+  border-right: solid black 1px;
+  border-left: solid #860202 1px;
+  outline: none;
+  font-family: Helvetica;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#search-box:hover {
+  border-bottom: solid black 1px;
+  border-top: solid #860202 1px;
+  border-right: solid white 1px;
+  border-left: solid white 1px;
+}
+
+.prompt {
+  text-align: right;
+  clear: both;
+  float: left;
+  margin: 20px 4px 0px 0;
+  color: #870202;
+  font-family: Helvetica;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+#search-component {
+  width: 400px;
+  margin: auto;
+}
+
+button {
+  border-left: solid black 1px;
+  border-right: solid #860202 1px;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+  padding: 10px 20px 10px;
+  opacity: .8;
+  cursor: pointer;
+  float: right;
+  margin-right: 50px;
+  outline: none;
+}
+button:hover {
+    border-top: solid black 1px;
+    border-bottom: solid #860202 1px;
+    border-left: solid white 1px;
+    border-right: solid white 1px;
+}

@@ -1,0 +1,260 @@
+.footer-distributed{
+	background-color: #ffffff;
+	border-top: solid #870202 1px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	font-family: Helvetica;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 100;
+	text-align: left;
+	padding: 50px 60px 40px;
+	margin-top: 80px;
+	overflow: hidden;
+	box-shadow: inset 0 17px 8px -16px #110;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color: #33383b;
+	font-family: Helvetica;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 100;
+	opacity: .8;
+  font-size: 38px;
+}
+
+.footer-distributed h3 span{
+	color:  #8b442d;;
+	opacity: .8;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #882f2c;
+	margin: 0 0 10px;
+	padding: 0;
+	opacity: .8;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color: black;
+	opacity: .5;
+	font-family: Helvetica;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 100;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	vertical-align: top;
+  margin: -33px 15px 13px 0;
+  color: #8a442d;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: transparent;
+  resize: none;
+	font-weight: 100;
+	font-size: 20px;
+  color: #831a1a;
+  width: 350px;
+  padding: 9px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 35px;
+	margin-bottom: 15px;
+	border-top: solid #882f2c 1px;
+	border-bottom: solid black 1px;
+	border-left: none;
+	border-right: none;
+	outline:0;
+	opacity: .8;
+}
+
+.footer-distributed form input:hover{
+	border-top: solid  black 1px;
+	border-bottom: solid #882f2c 1px;
+}
+
+.footer-distributed form textarea{
+	height: 80px;
+	margin-bottom: 20px;
+	border-left: solid #882f2c 1px;
+	border-right: solid black 1px;
+	border-top: none;
+	border-bottom: none;
+	outline:0;
+	opacity: .8;
+}
+
+.footer-distributed form textarea:hover{
+	border-right: solid #882f2c 1px;
+	border-left: solid black 1px;
+}
+
+.footer-distributed form button{
+	outline: none;
+	background-color: white;
+	text-transform: uppercase;
+	color: black;
+	border-top: solid #882f2c 1px;
+	border-bottom: solid black 1px;
+	border-right: none;
+	border-left: none;
+	padding: 15px 10px;
+	font-weight: 100;
+	font-size: 24px;
+	float: left;
+	cursor: pointer;
+	opacity: .8;
+}
+
+.footer-distributed form button:hover {
+	background-color: white;
+	color: black;
+	border-right: solid black 1px;
+	border-left: solid #882f2c 1px;
+	border-top: none;
+	border-bottom: none;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		outline: none;
+		background-color: white;
+		text-transform: uppercase;
+		color: black;
+		border-right: solid black 1px;
+		border-left: solid #882f2c 1px;
+		border-top: none;
+		border-bottom: none;
+		padding: 15px 10px;
+		font-weight: 100;
+		font-size: 20px;
+		float: left;
+		cursor: pointer;
+		opacity: .8;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}

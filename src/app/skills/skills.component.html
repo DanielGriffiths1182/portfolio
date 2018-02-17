@@ -1,0 +1,21 @@
+<app-skill-search></app-skill-search>
+<app-dashboard></app-dashboard>
+<app-chart class="front-end"></app-chart>
+<table class="container">
+  <thead>
+		<tr>
+			<th><h1>Skill</h1></th>
+      <th><h1>Stack</h1></th>
+      <th><h1>Details</h1></th>
+		</tr>
+	</thead>
+  <tbody>
+    <tr *ngFor="let skill of skills | paginate: { itemsPerPage: 5, currentPage: p }">
+      <td>{{skill.skillName}}</td>
+      <td>{{skill.stack}}</td>
+      <td><button class="details" title="detail skill" routerLink="/detail/{{skill.id}}">X</button></td>
+    </tr>
+  </tbody>
+</table>
+<pagination-controls (pageChange)="p = $event"
+                     maxSize="4"></pagination-controls>

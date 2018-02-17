@@ -1,0 +1,8 @@
+<div *ngIf="projectService.projects.length">
+
+  <h2>Projects</h2>
+  <button class="clear"
+          (click)="projectService.clear()">clear</button>
+  <div *ngFor='let project of projectService.projects'> {{project}} </div>
+
+</div>

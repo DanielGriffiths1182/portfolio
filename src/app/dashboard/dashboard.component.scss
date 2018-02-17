@@ -1,0 +1,108 @@
+.col-1-4 {
+  width: 22%;
+  float: left;
+  margin-right: 1%;
+  margin-left: 1.5%;
+  margin-bottom: 220px;
+  opacity: .8;
+}
+
+.col-1-4:nth-child(even):hover {
+  border: none;
+}
+
+.col-1-4:nth-child(odd):hover {
+  border: none;
+}
+
+
+.col-1-4:nth-child(even) {
+    border-top: solid #8e1010 1px;
+    border-bottom: solid black 1px;
+}
+
+.col-1-4:nth-child(odd) {
+    border-top: solid black 1px;
+    border-bottom: solid #8e1010 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: center;
+  margin: 70px 0 55px 0;
+  opacity: .9;
+  font-family: Helvetica;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+h4 {
+  position: relative;
+  opacity: .9;
+  font-family: Helvetica;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.grid {
+  margin-top: 100px;
+
+  .grid-pad {
+    padding: 10px 0;
+  }
+
+  .grid-pad > [class*='col-']:last-of-type {
+    padding-right: 20px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.module {
+  padding: 20px;
+  text-align: center;
+  color: #8e1010;
+  max-height: 120px;
+  min-width: 120px;
+  background-color: #ffffff;
+  font-family: Helvetica;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 100;
+}
+
+.module:hover {
+  background-image: url("../../assets/top-skill/js.png");
+  background-size: cover;
+  cursor: pointer;
+  color: transparent;
+}
+
+@media (max-width: 600px) {
+  .module {
+    font-size: 10px;
+    max-height: 75px; }
+}
+@media (max-width: 1024px) {
+  .grid {
+    margin: 0;
+  }
+  .module {
+    min-width: 60px;
+  }
+}

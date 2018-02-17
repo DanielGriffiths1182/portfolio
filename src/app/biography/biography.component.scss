@@ -1,0 +1,91 @@
+.wrap {
+  height: 1200px;
+
+    h1 {
+      font-family: Helvetica;
+      font-style: normal;
+      font-variant: small-caps;
+      font-weight: 100;
+    }
+
+    .section-one {
+      width: 100%;
+      float: left;
+      .text-one {
+        width: 25%;
+        font-family: Helvetica;
+        font-style: normal;
+        font-variant: small-caps;
+        font-weight: 100;
+        margin-top: 180px;
+        margin-left: 180px;
+        float: left;
+        padding: 100px 0 100px 0;
+        border-top: solid #ad1a1a8f 1px;
+        border-bottom: solid black 1px;
+        border-left: solid white 1px;
+        border-right: solid white 1px;
+      }
+
+      .text-one:hover {
+        border-top: solid white 1px;
+        border-bottom: solid white 1px;
+        border-left: solid #ad1a1a8f 1px;
+        border-right: solid black 1px;
+      }
+    }
+
+    .section-two {
+      width: 100%;
+      float: right;
+      .text-two {
+        width: 25%;
+        font-family: Helvetica;
+        font-style: normal;
+        font-variant: small-caps;
+        font-weight: 100;
+        margin-right: 180px;
+        float: right;
+        padding: 100px 0 100px 0;
+        border-top: solid #ad1a1a8f 1px;
+        border-bottom: solid black 1px;
+        border-left: solid white 1px;
+        border-right: solid white 1px;
+      }
+
+      .text-two:hover {
+        border-top: solid white 1px;
+        border-bottom: solid white 1px;
+        border-left: solid #ad1a1a8f 1px;
+        border-right: solid black 1px;
+      }
+    }
+
+    .section-three {
+      width: 100%;
+      float: left;
+      .text-three {
+        width: 25%;
+        font-family: Helvetica;
+        font-style: normal;
+        font-variant: small-caps;
+        font-weight: 100;
+        margin-left: 180px;
+        margin-bottom: 200px;
+        float: left;
+        padding: 100px 0 100px 0;
+        border-top: solid #ad1a1a8f 1px;
+        border-bottom: solid black 1px;
+        border-left: solid white 1px;
+        border-right: solid white 1px;
+      }
+
+      .text-three:hover {
+        border-top: solid white 1px;
+        border-bottom: solid white 1px;
+        border-left: solid #ad1a1a8f 1px;
+        border-right: solid black 1px;
+      }
+    }
+
+}

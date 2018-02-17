@@ -1,0 +1,6 @@
+<div class="container" *ngIf="skill">
+  <h2>{{ skill.skillName | uppercase }} | {{ skill.skillLevel }}</h2>
+  <p>{{ skill.description }}</p>
+  <button class="back-button" (click)="goBack()">go back</button>
+</div>
+<app-repository [skill]="skill"></app-repository>

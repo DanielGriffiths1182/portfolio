@@ -1,0 +1,15 @@
+<div id="search-component">
+  <h4 class="prompt">Search Skills</h4>
+
+  <input class="search-input" #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+  <div class="dropdown">
+    <ul class="search-result">
+      <li *ngFor="let skill of skills$ | async" >
+        <div>
+          {{skill.skillName}}
+          <button class="details" title="detail skill" routerLink="/detail/{{skill.id}}">X</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
