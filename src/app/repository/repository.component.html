@@ -5,17 +5,17 @@
   </div>
   <div class="blog-body">
     <div class="blog-title">
-      <h1><a href="#">{{ repo.id }}</a></h1>
+      <h1><a href="#">{{ repo.name }}</a></h1>
     </div>
     <div class="blog-summary">
-      <p>This repo uses {{ skill.skillName }}. I will list every repo that uses each given skill. This will be the description.</p>
+      <p>{{ repo.description }}</p>
     </div>
     <div class="blog-tags">
       <ul>
-        <li><a href="#">{{ repo.id }}</a></li>
-        <li><a href="#">Other</a></li>
-        <li><a href="#">Included</a></li>
-        <li><a href="#">In Repo</a></li>
+        <li><a href="#">{{ repo.skills[0] }}</a></li>
+        <li><a href="#">{{ repo.skills[1] }}</a></li>
+        <li><a href="#">{{ repo.skills[2] }}</a></li>
+        <li><a href="#">{{ repo.skills[3] }}</a></li>
       </ul>
     </div>
   </div>

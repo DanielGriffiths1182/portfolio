@@ -170,7 +170,7 @@ export class InMemoryDataService implements InMemoryDbService {
         skills: ['AngularJS', 'Javascript', 'HTML', 'CSS', 'SCSS', 'jQuery', 'Typescript'],
         link: 'https://github.com/DanielGriffiths1182/robust-angularJS-portfolio-site-application',
         description: 'A robust (Javascript, Typescript, HTML, SCSS) AngularJS, building towards new portfolio',
-        mainSkill: 'CSS'
+        mainSkill: 'Typescript'
       },{
         id: 2,
         name: 'Ruby Codewars Archive',
@@ -178,6 +178,36 @@ export class InMemoryDataService implements InMemoryDbService {
         link: 'https://github.com/DanielGriffiths1182/ruby-codewars-archive',
         description: '87 Ruby exercises and tests',
         mainSkill: 'Ruby'
+      },
+      {
+        id: 3,
+        name: 'PHP Codewars Archive',
+        skills: ['PHP'],
+        link: 'https://github.com/DanielGriffiths1182/php_codewars_archive',
+        description: '25 PHP exercises and tests',
+        mainSkill: 'PHP'
+      },{
+        id: 4,
+        name: 'Javascript Codewars Archive',
+        skills: ['Javascript'],
+        link: 'https://github.com/DanielGriffiths1182/javascript-codewars-archive',
+        description: '40 Javascript exercises and tests',
+        mainSkill: 'Javascript'
+      },
+      {
+        id: 5,
+        name: 'Java Movie Application',
+        skills: ['Java', 'Spring Boot', 'HTML', 'CSS'],
+        link: 'https://github.com/DanielGriffiths1182/java-movie-application',
+        description: 'With RESTful and full CRUD, a mini-application using Javas Spring Boot MVC',
+        mainSkill: 'Java'
+      },{
+        id: 6,
+        name: 'Code Karma API and Web Platform',
+        skills: ['Ruby', 'Rails', 'SQL', 'Javascript', 'HTML', 'SCSS', 'AngularJS'],
+        link: 'https://github.com/DanielGriffiths1182/code_karma_api',
+        description: 'VISIT: https://samanthasheadavis.github.io/codeKarma/#/ | Robust and scaled minimum viable product',
+        mainSkill: 'Rails'
       }
     ];
     return {skills, repos};
