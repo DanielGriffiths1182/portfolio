@@ -175,7 +175,7 @@ export class InMemoryDataService implements InMemoryDbService {
         link: 'https://github.com/DanielGriffiths1182/robust-angularJS-portfolio-site-application',
         description: 'A robust (Javascript, Typescript, HTML, SCSS) AngularJS, building towards new portfolio',
         mainSkill: 'Typescript',
-        url: 'url("../../assets/angular.jpg")'
+        url: 'url("https://i.ytimg.com/vi/4dlI76-O3lc/maxresdefault.jpg")'
       },{
         id: 2,
         name: 'Ruby Codewars Archive',
@@ -183,7 +183,7 @@ export class InMemoryDataService implements InMemoryDbService {
         link: 'https://github.com/DanielGriffiths1182/ruby-codewars-archive',
         description: '87 Ruby exercises and tests',
         mainSkill: 'Ruby',
-        url: 'url("../../assets/ruby.jpg")'
+        url: 'url("https://static1.squarespace.com/static/543593e4e4b0bf8b316933e3/t/55224459e4b0ab9c8e348de9/1428309084880/firstattempt.jpg")'
       },
       {
         id: 3,
@@ -192,7 +192,7 @@ export class InMemoryDataService implements InMemoryDbService {
         link: 'https://github.com/DanielGriffiths1182/php_codewars_archive',
         description: '25 PHP exercises and tests',
         mainSkill: 'PHP',
-        url: 'url("../../assets/php.jpg")'
+        url: 'url("http://www.codingdojo.com/blog/wp-content/uploads/71.jpg")'
       },{
         id: 4,
         name: 'Javascript Codewars Archive',
@@ -200,7 +200,7 @@ export class InMemoryDataService implements InMemoryDbService {
         link: 'https://github.com/DanielGriffiths1182/javascript-codewars-archive',
         description: '40 Javascript exercises and tests',
         mainSkill: 'Javascript',
-        url: 'url("../../assets/js.jpg")'
+        url: 'url("https://i.redd.it/auvi7ijfursy.png")'
       },
       {
         id: 5,
@@ -209,7 +209,7 @@ export class InMemoryDataService implements InMemoryDbService {
         link: 'https://github.com/DanielGriffiths1182/java-movie-application',
         description: 'With RESTful and full CRUD, a mini-application using Javas Spring Boot MVC',
         mainSkill: 'Java',
-        url: 'url("../../assets/java.jpg")'
+        url: 'url("https://cdn-images-1.medium.com/max/1600/1*3OWWk9BUargTyvFGQpBsOA.png")'
       },{
         id: 6,
         name: 'Code Karma API and Web Platform',
@@ -217,7 +217,7 @@ export class InMemoryDataService implements InMemoryDbService {
         link: 'https://github.com/DanielGriffiths1182/code_karma_api',
         description: 'VISIT: https://samanthasheadavis.github.io/codeKarma/#/ | Robust and scaled minimum viable product',
         mainSkill: 'Rails',
-        url: 'url("../../assets/rails.jpg")'
+        url: 'url("https://static1.squarespace.com/static/543593e4e4b0bf8b316933e3/t/5549080ce4b0a842f7a0d2bd/1430849550313/controllercode.jpg")'
       }
     ];
     return {skills, repos};

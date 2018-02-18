@@ -88,6 +88,7 @@ img {
 #cd-logo {
   float: left;
   margin: 13px 0 0 5%;
+  width: 35px;
 }
 
 #cd-logo img {
@@ -96,7 +97,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   #cd-logo {
-    margin: 23px 0 0 5%;
+    margin: 14px 0 0 5%;
   }
 }
 
@@ -113,7 +114,7 @@ img {
 
   #cd-logo.is-hidden.slide-in {
     left: 5%;
-    opacity: 1;
+    opacity: .8;
   }
 }
 
@@ -155,6 +156,11 @@ img {
   border-top: 1px solid #051426;
   color: #f0eee1;
 }
+.cd-primary-nav li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
 
 @media only screen and (min-width: 768px) {
   .cd-primary-nav {
@@ -185,7 +191,7 @@ img {
 
   .cd-primary-nav li {
     display: inline-block;
-    margin-left: 0;
+    margin-left: 30px;
   }
 
   .cd-primary-nav a {
@@ -197,7 +203,7 @@ img {
     border-top: solid #ad1a1a8f 1px;
     border-bottom: solid black 1px;
     color: #030d18;
-    margin: 1px 0 -20px 0;
+    margin: 1px 0 -20px 0px;
     opacity: .9;
     font-family: Helvetica;
     font-style: normal;
@@ -432,7 +438,8 @@ img {
 
   .cd-secondary-nav li {
     display: inline-block;
-    margin-left: -4px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 
   .cd-secondary-nav li a {
@@ -631,11 +638,8 @@ img {
 }
 
 h1 {
-  background: #ffffff82;
   width: 550px;
   margin: 0 auto 20px;
   height: 70px;
   line-height: 66.4px;
-  border-left: solid #ad5957 1px;
-  border-right: solid #ad5957 1px;
 }
