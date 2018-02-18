@@ -3,32 +3,12 @@ h1 {
   font-style: normal;
   font-variant: small-caps;
   font-weight: 100;
-  line-height:1em;
+  line-height: 2em;
   text-align: center;
-  color: #4DC3FA;
+  color: #8a5455;
+  font-size: 43px;
 }
 
-h2 {
-  font-family: Helvetica;
-  font-style: normal;
-  font-variant: small-caps;
-  font-weight: 100;
-  text-align: center;
-  display: block;
-  line-height:1em;
-  padding-bottom: 2em;
-  color: #FB667A;
-}
-
-h2 a {
-  font-family: Helvetica;
-  font-style: normal;
-  font-variant: small-caps;
-  font-weight: 100;
-  text-transform: uppercase;
-  color: #FB667A;
-  text-decoration: none;
-}
 
 .blue {
   color: white;
@@ -37,7 +17,7 @@ h2 a {
   color: white;
 }
 
-.container th h1 {
+.container th h2 {
   font-family: Helvetica;
   font-style: normal;
   font-variant: small-caps;

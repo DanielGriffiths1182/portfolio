@@ -54,7 +54,8 @@ h4 {
   font-style: normal;
   font-variant: small-caps;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 28px;
+  line-height: 10px;
 }
 
 .grid {
@@ -84,18 +85,20 @@ h4 {
   font-style: normal;
   font-variant: small-caps;
   font-weight: 100;
+  font-size: 50px;
 }
 
 .module:hover {
-  background-image: url("../../assets/repos/js.png");
+  background-image: url("../../assets/top-skill/javascript.png");
   background-size: cover;
   cursor: pointer;
   color: transparent;
+  opacity: .8;
 }
 
 @media (max-width: 600px) {
   .module {
-    font-size: 10px;
+    font-size: 30px;
     max-height: 75px; }
 }
 @media (max-width: 1024px) {

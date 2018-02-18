@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Skill } from '../skill';
 import { SkillService } from '../skill.service';
 
+import { NgStyle } from '@angular/common';
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',

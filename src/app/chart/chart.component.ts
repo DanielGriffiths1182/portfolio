@@ -78,23 +78,23 @@ export class ChartComponent implements OnInit {
       borderColor: '#f8464340',
       pointBackgroundColor: '#f8464340',
       pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#fff',
-      pointHoverBorderColor: '#f8464340'
+      pointHoverBackgroundColor: '#590a0aab',
+      pointHoverBorderColor: '#590a0aab'
     },
     { // second color
       backgroundColor: '#8e1010a1',
       borderColor: '#8e1010a1',
       pointBackgroundColor: '#8e1010a1',
       pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#fff',
-      pointHoverBorderColor: '#8e1010a1'
+      pointHoverBackgroundColor: '#f8464340',
+      pointHoverBorderColor: '#f8464340'
     },
     { // third color
       backgroundColor: '#590a0aab',
       borderColor: '#590a0aab',
       pointBackgroundColor: '#590a0aab',
       pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#fff',
-      pointHoverBorderColor: '#590a0aab'
+      pointHoverBackgroundColor: '#8e1010a1',
+      pointHoverBorderColor: '#8e1010a1'
     }];
 }

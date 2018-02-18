@@ -1,6 +1,9 @@
+<div class="title" *ngIf="routerlink === '/repository'">
+  <h1>A Collection of Repositories</h1>
+</div>
 <div class="blog-container" *ngFor="let repo of repos">
   <div class="blog-header">
-    <div class="blog-cover" [ngStyle]="{'background':  repo.url}">
+    <div class="blog-cover" [ngStyle]="{'background-image':  repo.url}">
     </div>
   </div>
   <div class="blog-body">

@@ -34,7 +34,7 @@
 // Blog header
 //-------------------------
 .blog-cover {
-  opacity: .9;
+  opacity: .8;
   background-size: cover;
   border-radius: 5px 5px 0 0;
   height: 7rem;
@@ -129,4 +129,17 @@
   border: 1px solid lighten(#333, 40%);
   border-radius: 3px;
   padding: 0 .5rem;
+}
+
+.title {
+  h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 100;
+    line-height: 2em;
+    text-align: center;
+    color: #8a5455;
+    font-size: 43px;
+  }
 }
