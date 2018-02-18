@@ -149,6 +149,7 @@ pagination-controls /deep/ pagination-template .ngx-pagination {
   float: left;
   margin-left: 120px;
   margin-bottom: 10rem;
+  outline: none;
 
   .current {
     background-color: white;
@@ -158,6 +159,7 @@ pagination-controls /deep/ pagination-template .ngx-pagination {
     border-top: solid #860202 1px;
     border-right: solid white 1px;
     border-left: solid white 1px;
+    outline: none;
   }
 
   .current:hover {
@@ -165,5 +167,19 @@ pagination-controls /deep/ pagination-template .ngx-pagination {
     border-right: solid #860202 1px;
     border-top: solid white 1px;
     border-bottom: solid white 1px;
+  }
+
+  .pagination-previous {
+    outline: none;
+    a {
+      outline: none;
+    }
+  }
+
+  .pagination-previous {
+    outline: none;
+    a {
+      outline: none;
+    }
   }
 }

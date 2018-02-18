@@ -7,12 +7,32 @@
   opacity: .8;
 }
 
-.col-1-4:nth-child(even):hover {
+.col-1-4:nth-child(1):hover {
   border: none;
+  .module:hover {
+    background-image: url("../../assets/ruby.jpg");
+  }
 }
 
-.col-1-4:nth-child(odd):hover {
+.col-1-4:nth-child(2):hover {
   border: none;
+  .module:hover {
+    background-image: url("../../assets/js.jpg");
+  }
+}
+
+.col-1-4:nth-child(3):hover {
+  border: none;
+  .module:hover {
+    background-image: url("../../assets/java.jpg");
+  }
+}
+
+.col-1-4:nth-child(4):hover {
+  border: none;
+  .module:hover {
+    background-image: url("../../assets/python.jpg");
+  }
 }
 
 
@@ -89,7 +109,6 @@ h4 {
 }
 
 .module:hover {
-  background-image: url("../../assets/top-skill/javascript.png");
   background-size: cover;
   cursor: pointer;
   color: transparent;
