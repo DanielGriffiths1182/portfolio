@@ -1,5 +1,4 @@
 .footer-distributed{
-	background-image: url(../../assets/footer.jpg);
 	background-size: cover;
 	border-top: solid #870202 1px;
 	-webkit-box-sizing: border-box;
@@ -119,7 +118,6 @@
   width: 350px;
   padding: 9px;
 	background: #ffffffd9;
-	border: none;
 }
 
 .footer-distributed ::-webkit-input-placeholder {
@@ -139,33 +137,44 @@
 .footer-distributed form input{
 	height: 35px;
 	margin-bottom: 15px;
-	border: none;
+	border-top: solid #882f2c 1px;
+	border-bottom: solid black 1px;
+	border-left: none;
+	border-right: none;
 	outline:0;
 	background: #ffffffd9;
 }
 
 .footer-distributed form input:hover{
-	border: none;
+	border-top: solid  black 1px;
+	border-bottom: solid #882f2c 1px;
 }
 
 .footer-distributed form textarea{
 	height: 80px;
 	margin-bottom: 20px;
+	border-left: solid #882f2c 1px;
+	border-right: solid black 1px;
+	border-top: none;
+	border-bottom: none;
 	outline:0;
 	background: #ffffffd9;
-	border: none;
 }
 
 .footer-distributed form textarea:hover{
-		border: none;
+	border-right: solid #882f2c 1px;
+	border-left: solid black 1px;
 }
 
 .footer-distributed form button{
 	outline: none;
 	background: #ffffffd9;
 	text-transform: uppercase;
-	border: none;
 	color: black;
+	border-top: solid #882f2c 1px;
+	border-bottom: solid #882f2c 1px;
+	border-right: solid white 1px;
+	border-left: solid white 1px;
 	padding: 15px 10px;
 	font-weight: 100;
 	font-size: 24px;
@@ -174,8 +183,11 @@
 }
 
 .footer-distributed form button:hover {
-	background: #9f6866;
-	color: white;
+	color: black;
+	border-right: solid black 1px;
+	border-left: solid black 1px;
+	border-top: solid white 1px;
+	border-bottom: solid white 1px;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -200,11 +212,14 @@
 		background: #ffffffd9;
 		text-transform: uppercase;
 		color: black;
+		border-right: solid black 1px;
+		border-left: solid #882f2c 1px;
+		border-top: none;
+		border-bottom: none;
 		padding: 15px 10px;
 		font-weight: 100;
 		font-size: 20px;
 		float: left;
-		border: none;
 		cursor: pointer;
 	}
 
