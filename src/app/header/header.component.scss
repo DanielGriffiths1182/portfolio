@@ -87,8 +87,8 @@ img {
 
 #cd-logo {
   float: left;
-  margin: 13px 0 0 5%;
-  width: 35px;
+  margin: 20px 0 0 5%;
+  width: 20px;
 }
 
 #cd-logo img {
@@ -97,7 +97,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   #cd-logo {
-    margin: 14px 0 0 5%;
+    margin: 20px 0 0 5%;
   }
 }
 
@@ -224,7 +224,7 @@ img {
 #cd-intro {
   position: relative;
   height: 300px;
-  background: url(../../assets/intro-background.jpg) no-repeat center center;
+  background: url(../../assets/backing.jpg) no-repeat center center;
   background-size: cover;
   z-index: 2;
 }
@@ -640,6 +640,7 @@ img {
 h1 {
   width: 550px;
   margin: 0 auto 20px;
+  background: #ffffff70;
   height: 70px;
   line-height: 66.4px;
 }
