@@ -9,7 +9,7 @@ import { BiographyComponent }  from './biography/biography.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/skills', pathMatch: 'full' },
+  { path: '', redirectTo: '/biography', pathMatch: 'full' },
   { path: 'detail/:id', component: SkillDetailComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'repository', component: RepositoryComponent },

@@ -1,7 +1,7 @@
 /* HeroDetailComponent's private CSS styles */
 .container {
   position: relative;
-  margin: auto;
+  margin-top: 120px auto;
   width: 100%;
 
   h2 {
@@ -14,12 +14,13 @@
   }
 
   p {
-    width: 50%;
-    margin: auto;
+    width: 70%;
+    margin: 100px auto 100px;
     font-family: Helvetica;
     font-style: normal;
     font-variant: small-caps;
     font-weight: 100;
+    font-size: 20px;
   }
 
   div {
@@ -39,14 +40,14 @@
   }
 
   .back-button {
-    border-left: solid black 1px;
-    border-right: solid #860202 1px;
-    border-top: solid white 1px;
-    border-bottom: solid white 1px;
-    padding: 15px 30px 15px;
+    border-top: solid black 1px;
+    border-bottom: solid #860202 1px;
+    border-left: solid white 1px;
+    border-right: solid white 1px;
+    padding: 22px 43px 22px;
     opacity: .8;
     cursor: pointer;
-    margin: 70px;
+    margin: 65px 40% 70px 40%;
     font-variant: small-caps;
     outline: none;
     font-weight: 100;
@@ -54,9 +55,9 @@
   }
 
   .back-button:hover {
-    border-top: solid black 1px;
-    border-bottom: solid #860202 1px;
-    border-left: solid white 1px;
-    border-right: solid white 1px;
+    border-left: solid black 1px;
+    border-right: solid #860202 1px;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
   }
 }
