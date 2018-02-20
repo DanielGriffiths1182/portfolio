@@ -31,6 +31,7 @@
 	font-variant: small-caps;
 	font-weight: 100;
   font-size: 38px;
+	letter-spacing: 10px;
 }
 
 .footer-distributed h3 span{
@@ -41,7 +42,7 @@
 
 .footer-distributed .footer-links{
 	color:  #882f2c;
-	margin: 0 0 10px;
+	margin: 0 0 43px;
 	padding: 0;
 }
 
@@ -50,6 +51,7 @@
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
+	letter-spacing: 7px;
 }
 
 .footer-distributed .footer-company-name{
@@ -60,6 +62,7 @@
 	font-variant: small-caps;
 	font-weight: 100;
 	margin: 0;
+	letter-spacing: 3px;
 }
 
 /* Footer social icons */
@@ -143,6 +146,7 @@
 	border-right: none;
 	outline:0;
 	background: #ffffffd9;
+	letter-spacing: 4px;
 }
 
 .footer-distributed form input:hover{
@@ -159,6 +163,7 @@
 	border-bottom: none;
 	outline:0;
 	background: #ffffffd9;
+	letter-spacing: 4px;
 }
 
 .footer-distributed form textarea:hover{
@@ -180,6 +185,7 @@
 	font-size: 24px;
 	float: left;
 	cursor: pointer;
+	letter-spacing: 4px;
 }
 
 .footer-distributed form button:hover {

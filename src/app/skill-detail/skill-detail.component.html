@@ -1,5 +1,5 @@
 <div class="container" *ngIf="skill">
-  <h2>{{ skill.skillName | uppercase }} | Details</h2>
+  <h2>{{ skill.skillName | uppercase }}</h2>
   <p>{{ skill.description }}</p>
 <app-projects [skill]="skill"></app-projects>
 <button class="back-button" (click)="goBack()">go back</button>

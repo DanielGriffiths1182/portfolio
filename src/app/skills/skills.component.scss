@@ -6,6 +6,7 @@ h1 {
   line-height: 2em;
   text-align: center;
   color: #8a5455;
+  letter-spacing: 10px;
   font-size: 43px;
 }
 
@@ -26,6 +27,7 @@ h1 {
   color: black;
   opacity: .8;
   outline: none;
+  letter-spacing: 10px;
 }
 
 .container td {
@@ -53,6 +55,7 @@ h1 {
   padding-bottom: 2%;
   padding-top: 2%;
   padding-left:2%;
+  letter-spacing: 3px;
 }
 
 /* Background-color of the odd rows */
@@ -145,6 +148,7 @@ pagination-controls /deep/ pagination-template .ngx-pagination {
   font-style: normal;
   font-variant: small-caps;
   font-weight: 100;
+  letter-spacing: 3px;
   float: left;
   margin-left: 120px;
   margin-bottom: 10rem;
