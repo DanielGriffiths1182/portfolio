@@ -170,15 +170,15 @@ export class InMemoryDataService implements InMemoryDbService {
     const repos = [
       {
         id: 1,
-        name: 'Angular Portfolio Site',
+        name: 'Angular Portfolio',
         skills: ['AngularJS', 'Javascript', 'HTML', 'CSS', 'SCSS', 'jQuery', 'Typescript'],
         link: 'https://github.com/DanielGriffiths1182/robust-angularJS-portfolio-site-application',
-        description: 'A robust (Javascript, Typescript, HTML, SCSS) AngularJS, building towards new portfolio',
+        description: 'A robust AngularJS platform, building towards new portfolio',
         mainSkill: 'Typescript',
         url: 'url("https://i.ytimg.com/vi/4dlI76-O3lc/maxresdefault.jpg")'
       },{
         id: 2,
-        name: 'Ruby Codewars Archive',
+        name: 'Ruby Codewars',
         skills: ['Ruby'],
         link: 'https://github.com/DanielGriffiths1182/ruby-codewars-archive',
         description: '87 Ruby exercises and tests',
@@ -187,7 +187,7 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 3,
-        name: 'PHP Codewars Archive',
+        name: 'PHP Codewars',
         skills: ['PHP'],
         link: 'https://github.com/DanielGriffiths1182/php_codewars_archive',
         description: '25 PHP exercises and tests',
@@ -195,7 +195,7 @@ export class InMemoryDataService implements InMemoryDbService {
         url: 'url("http://www.codingdojo.com/blog/wp-content/uploads/71.jpg")'
       },{
         id: 4,
-        name: 'Javascript Codewars Archive',
+        name: 'Javascript Codewars',
         skills: ['Javascript'],
         link: 'https://github.com/DanielGriffiths1182/javascript-codewars-archive',
         description: '40 Javascript exercises and tests',
@@ -212,10 +212,10 @@ export class InMemoryDataService implements InMemoryDbService {
         url: 'url("https://cdn-images-1.medium.com/max/1600/1*3OWWk9BUargTyvFGQpBsOA.png")'
       },{
         id: 6,
-        name: 'Code Karma API and Web Platform',
+        name: 'Code Karma API and Platform',
         skills: ['Ruby', 'Rails', 'SQL', 'Javascript', 'HTML', 'SCSS', 'AngularJS'],
         link: 'https://github.com/DanielGriffiths1182/code_karma_api',
-        description: 'VISIT: https://samanthasheadavis.github.io/codeKarma/#/ | Robust and scaled minimum viable product',
+        description: 'Robust and scaled minimum viable product for clients and developers',
         mainSkill: 'Rails',
         url: 'url("https://static1.squarespace.com/static/543593e4e4b0bf8b316933e3/t/5549080ce4b0a842f7a0d2bd/1430849550313/controllercode.jpg")'
       }
