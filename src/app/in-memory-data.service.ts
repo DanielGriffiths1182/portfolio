@@ -218,6 +218,40 @@ export class InMemoryDataService implements InMemoryDbService {
         description: 'Robust and scaled minimum viable product for clients and developers',
         mainSkill: 'Rails',
         url: 'url("https://static1.squarespace.com/static/543593e4e4b0bf8b316933e3/t/5549080ce4b0a842f7a0d2bd/1430849550313/controllercode.jpg")'
+      },
+      {
+        id: 7,
+        name: 'Old Portfolio 2.0',
+        skills: ['Javascript', 'HTML', 'CSS'],
+        link: 'https://github.com/DanielGriffiths1182/old-portfolio-2.0',
+        description: 'Portfolio site 2.0, 2017',
+        mainSkill: 'CSS',
+        url: 'url("http://mrmanion.weebly.com/uploads/6/8/8/7/6887264/2711154_orig.jpg")'
+      },{
+        id: 8,
+        name: 'Rails App, Advanced User/Admin Setup',
+        skills: ['Ruby', 'Rails', 'ERB', 'CSS'],
+        link: 'https://github.com/DanielGriffiths1182/personal-rails5-application',
+        description: 'Practicing advanced user/admin login, setup techniques.',
+        mainSkill: 'Rails',
+        url: 'url("https://static1.squarespace.com/static/543593e4e4b0bf8b316933e3/t/5549080ce4b0a842f7a0d2bd/1430849550313/controllercode.jpg")'
+      },
+      {
+        id: 9,
+        name: 'Python Codewars',
+        skills: ['Python'],
+        link: 'https://github.com/DanielGriffiths1182/python-codewars-archive',
+        description: '28 Python exercises and tests',
+        mainSkill: 'Python',
+        url: 'url("http://dynamoprimer.com/en/09_Custom-Nodes/images/9-4/Exercise/Python/python07.jpg")'
+      },{
+        id: 10,
+        name: 'Memory Game',
+        skills: ['Javascript', 'Ruby', 'Rails', 'Haml', 'CSS'],
+        link: 'https://github.com/DanielGriffiths1182/memory_game',
+        description: 'Memory Card Game',
+        mainSkill: 'Javascript',
+        url: 'url("https://i.redd.it/auvi7ijfursy.png")'
       }
     ];
     return {skills, repos};
