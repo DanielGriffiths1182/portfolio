@@ -29,6 +29,7 @@ import { FooterService } from './footer.service';
 import { BiographyComponent } from './biography/biography.component';
 import { BiographyService } from './biography.service';
 import { ChartComponent } from './chart/chart.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -44,7 +45,8 @@ import { ChartComponent } from './chart/chart.component';
     HeaderComponent,
     FooterComponent,
     BiographyComponent,
-    ChartComponent
+    ChartComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

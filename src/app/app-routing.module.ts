@@ -6,6 +6,7 @@ import { SkillsComponent }      from './skills/skills.component';
 import { SkillDetailComponent }  from './skill-detail/skill-detail.component';
 import { RepositoryComponent }  from './repository/repository.component';
 import { BiographyComponent }  from './biography/biography.component';
+import { ContactComponent }  from './contact/contact.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'detail/:id', component: SkillDetailComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'repository', component: RepositoryComponent },
-  { path: 'biography', component: BiographyComponent }
+  { path: 'biography', component: BiographyComponent },
+  { path: 'contact', component: ContactComponent }
 ];
 
 @NgModule({
