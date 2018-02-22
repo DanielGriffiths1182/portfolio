@@ -30,12 +30,4 @@ export class RepositoryComponent implements OnInit {
         .subscribe(repos => this.repos = repos);
   }
 
-  checkSkill(repos): void {
-
-  }
-
-  ngAfterViewInit() {
-
-  }
-
 }

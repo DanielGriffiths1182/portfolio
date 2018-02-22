@@ -41,9 +41,4 @@ export class SkillsComponent implements OnInit {
     this.skills = this.skills.filter(h => h !== skill);
     this.skillService.deleteSkill(skill).subscribe();
   }
-
-
-  ngAfterViewInit() {
-
-  }
 }

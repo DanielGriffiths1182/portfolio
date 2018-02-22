@@ -11,12 +11,9 @@ export class BiographyComponent implements OnInit {
 
     constructor() {}
 
-    
+
   ngOnInit() {
 
-  }
-
-  ngAfterViewInit() {
   }
 
 }
