@@ -53,11 +53,11 @@
 .blog-title h1 a {
   color: #333;
   font-weight: 100;
-  height: 68px;
+  height: 82px;
 }
 
 .blog-title h1 {
-  height: 64px;
+  height: 83px;
 }
 
 
@@ -66,7 +66,7 @@
 }
 
 .blog-summary {
-  height: 83px;
+  height: 72px;
   text-align: left;
   line-height: 25px;
 }
@@ -92,6 +92,7 @@
   white-space: nowrap;
   width: 5rem;
   margin-right: 7px;
+  cursor: default;
 }
 
 // Blog footer

@@ -6,11 +6,11 @@ export class InMemoryDataService implements InMemoryDbService {
     const skills = [
       {
         id: 1,
-        skillName: 'Rails',
-        skillLevel: 8,
-        description: "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages.",
+        skillName: 'Python',
+        skillLevel: 4,
+        description: "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. ... Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.",
         stack: 'Back End',
-        url: 'url("../../assets/js.jpg")'
+        url: 'url("../../assets/python.jpg")'
       },
       {
         id: 2,
@@ -30,19 +30,19 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 4,
-        skillName: 'Java',
-        skillLevel: 4,
-        description: "Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.",
-        stack: 'Back End',
-        url: 'url("../../assets/java.jpg")'
+        skillName: 'AngularJS',
+        skillLevel: 9,
+        description: "AngularJS (commonly referred to as 'Angular.js' or 'AngularJS 1.X') is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.",
+        stack: 'Front End',
+        url: 'url("../../assets/angular.jpg")'
       },
       {
         id: 5,
-        skillName: 'Python',
-        skillLevel: 4,
-        description: "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. ... Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.",
-        stack: 'Back End',
-        url: 'url("../../assets/python.jpg")'
+        skillName: 'SCSS',
+        skillLevel: 9,
+        description: "Sass (Syntactically awesome style sheets) is a style sheet language initially designed by Hampton Catlin and developed by Natalie Weizenbaum. After its initial versions, Weizenbaum and Chris Eppstein have continued to extend Sass with SassScript, a simple scripting language used in Sass files.",
+        stack: 'Front End',
+        url: 'url("../../assets/javascript.jpg")'
       },
       {
         id: 6,
@@ -118,11 +118,11 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 15,
-        skillName: 'AngularJS',
-        skillLevel: 9,
-        description: "AngularJS (commonly referred to as 'Angular.js' or 'AngularJS 1.X') is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.",
-        stack: 'Front End',
-        url: 'url("../../assets/javascript.jpg")'
+        skillName: 'Java',
+        skillLevel: 4,
+        description: "Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.",
+        stack: 'Back End',
+        url: 'url("../../assets/java.jpg")'
       },
       {
         id: 16,
@@ -142,11 +142,11 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 18,
-        skillName: 'SCSS',
-        skillLevel: 9,
-        description: "Sass (Syntactically awesome style sheets) is a style sheet language initially designed by Hampton Catlin and developed by Natalie Weizenbaum. After its initial versions, Weizenbaum and Chris Eppstein have continued to extend Sass with SassScript, a simple scripting language used in Sass files.",
-        stack: 'Front End',
-        url: 'url("../../assets/javascript.jpg")'
+        skillName: 'Rails',
+        skillLevel: 8,
+        description: "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages.",
+        stack: 'Back End',
+        url: 'url("../../assets/js.jpg")'
       },
       {
         id: 19,
