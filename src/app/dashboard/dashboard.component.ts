@@ -11,11 +11,13 @@ import { NgStyle } from '@angular/common';
 })
 export class DashboardComponent implements OnInit {
   skills: Skill[] = [];
+  random: number;
 
   constructor(private skillService: SkillService) { }
 
   ngOnInit() {
     this.getSkills();
+    this.random = 0.5 - Math.random();
   }
 
   getSkills(): void {
