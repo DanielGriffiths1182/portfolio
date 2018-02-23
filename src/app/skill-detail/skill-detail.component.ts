@@ -35,4 +35,7 @@ export class SkillDetailComponent implements OnInit {
   goBack(): void {
     this.location.back();
   }
+
+  ngAfterViewInit() {
+  }
 }

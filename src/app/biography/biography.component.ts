@@ -1,7 +1,5 @@
 import { Component, ElementRef, NgZone, OnDestroy, OnInit } from '@angular/core';
 
-import * as $ from 'jquery';
-
 @Component({
   selector: 'app-biography',
   templateUrl: './biography.component.html',

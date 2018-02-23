@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 import { HttpClientModule }    from '@angular/common/http';
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 
@@ -29,7 +28,6 @@ import { FooterService } from './footer.service';
 import { BiographyComponent } from './biography/biography.component';
 import { BiographyService } from './biography.service';
 import { ChartComponent } from './chart/chart.component';
-import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -45,17 +43,15 @@ import { ContactComponent } from './contact/contact.component';
     HeaderComponent,
     FooterComponent,
     BiographyComponent,
-    ChartComponent,
-    ContactComponent
+    ChartComponent
   ],
   imports: [
+    NgxPaginationModule,
+    ChartsModule,
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    AngularFontAwesomeModule,
-    NgxPaginationModule,
-    ChartsModule,
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.

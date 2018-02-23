@@ -35,4 +35,5 @@ export class SkillSearchComponent implements OnInit {
       switchMap((term: string) => this.skillService.searchSkills(term)),
     );
   }
+
 }
