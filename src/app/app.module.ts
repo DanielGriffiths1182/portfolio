@@ -28,6 +28,7 @@ import { FooterService } from './footer.service';
 import { BiographyComponent } from './biography/biography.component';
 import { BiographyService } from './biography.service';
 import { ChartComponent } from './chart/chart.component';
+import { FaqComponent } from './faq/faq.component';
 
 
 
@@ -43,7 +44,8 @@ import { ChartComponent } from './chart/chart.component';
     HeaderComponent,
     FooterComponent,
     BiographyComponent,
-    ChartComponent
+    ChartComponent,
+    FaqComponent
   ],
   imports: [
     NgxPaginationModule,

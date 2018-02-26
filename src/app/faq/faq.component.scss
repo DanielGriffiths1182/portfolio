@@ -1,0 +1,135 @@
+// // Emmet article generation line : .col-xs-12.article-wrapper*5>article>a.more[href=#]>{more}^+.img-wrapper>img[src=http://lorempixel.com/150/150/nature]^+h1>Lorem3^+p>Lorem15
+//
+// h1#header{
+//   font-family: Helvetica;
+//   font-style: normal;
+//   font-variant: small-caps;
+//   font-weight: 100;
+//   line-height: 2em;
+//   text-align: center;
+//   color: #8a5455;
+//   letter-spacing: 10px;
+//   font-size: 43px;
+//   margin: 0 auto 100px;
+// }
+// .container {
+//   width: 80%;
+//   margin: auto;
+// }
+//
+// .article-wrapper{
+//   transition: width .4s;
+// }
+//
+// article{
+//   position:relative;
+//   padding-left:150px + 30;
+//   padding-right: 150px/2;
+//   height: 150px;
+//   margin-bottom: 30px;
+//   background-color: #FFF;
+//   border-radius: 150px;
+//   cursor:pointer;
+//
+//   .img-wrapper{
+//     position: absolute;
+//     top:- 10px;
+//     left:-10px;
+//     border-radius: 100px;
+//     background-color: #948f88;
+//     padding:10px;
+//     z-index: 1000;
+//     transition: all .2s;
+//
+//     img{
+//       border-radius: 100px;
+//       transition: all .2s;
+//       width: 150px;
+//     }
+//   }
+//
+//   h1{
+//     height: 75.5px;
+//     line-height: 75.5px;
+//     font-size: 24px;
+//     border-bottom: 2px solid #8a5455;
+//     color: #948f88;
+//     transition: all .4s;
+//     font-family: 'Titillium Web';
+//     letter-spacing: 5px;
+//   }
+//   p{
+//     color: #c85f66;
+//     font-family: 'Titillium Web';
+//     letter-spacing: 5px;
+//   }
+//   a{
+//     position:absolute;
+//     display:block;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//     line-height: 150px;
+//     text-align: center;
+//     width: 100%;
+//     background-color: #FFF;
+//     font-size: 48px;
+//     opacity:0;
+//     color: #948f88 !important;
+//     transition: all .4s;
+//     text-decoration: none !important;
+//     border-radius: 150px;
+//     font-family: 'Titillium Web';
+//     letter-spacing: 10px;
+//     font-weight: 100;
+//   }
+//    &:hover{
+//     .img-wrapper{
+//       padding:5px;
+//       transform: rotate(5deg);
+//       img{
+//         width: 150px + 10;
+//       }
+//     }
+//     a{
+//       opacity:1;
+//     }
+//   }
+// }
+//
+// .bloc{
+//   article{
+//     padding:10px;
+//     height: 200px;
+//     border-radius:3px;
+//     margin-top: 75px;
+//
+//     .img-wrapper{
+//       position: relative;
+//       top:-85px;
+//       width: 170px;
+//       left:inherit;
+//       margin: auto;
+//       margin-bottom: -100px;
+//     }
+//
+//     h1{
+//       font-size: 14px;
+//       height: 37.5px;
+//       line-height: 37.5px;
+//       font-family: 'Titillium Web';
+//       letter-spacing: 5px;
+//     }
+//
+//     p{
+//       font-size: 12px;
+//       font-family: 'Titillium Web';
+//       letter-spacing: 5px;
+//     }
+//
+//     a{
+//        border-radius:3px;
+//        line-height: 255px;
+//     }
+//   }
+// }

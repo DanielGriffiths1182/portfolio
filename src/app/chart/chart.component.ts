@@ -97,4 +97,5 @@ export class ChartComponent implements OnInit {
       pointHoverBackgroundColor: '#8e1010a1',
       pointHoverBorderColor: '#8e1010a1'
     }];
+
 }
